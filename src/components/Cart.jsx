@@ -16,10 +16,10 @@ function Cart() {
           <p className="font-semibold text-lg">Shopping Cart</p>
           <Button
             icon={<MdOutlineCancel />}
-            // color="rgb(153, 171, 180)"
-            // bgHoverColor="light-gray"
-            // size="2xl"
-            // borderRadius="50%"
+            color="rgb(153, 171, 180)"
+            bgHoverColor="light-gray"
+            size="2xl"
+            borderRadius="50%"
           />
         </div>
         {cartData?.map((item, index) => (

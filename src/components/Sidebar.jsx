@@ -44,7 +44,7 @@ function Sidebar() {
               </p> 
               {item.links.map((link) => (
                 <NavLink 
-                  to={`/${link.name}`}
+                  to={`/dashboard/${link.name}`}
                   key={link.name}
                   style = {({isActive}) =>  ({ backgroundColor: isActive ? currentColor: ''}) }
                   onClick={handleCloseSideBar}  
